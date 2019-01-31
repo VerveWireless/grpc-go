@@ -49,12 +49,12 @@ import (
 	"golang.org/x/net/context"
 	"golang.org/x/net/http2"
 	"golang.org/x/net/trace"
-	"google.golang.org/grpc/codes"
-	"google.golang.org/grpc/credentials"
-	"google.golang.org/grpc/grpclog"
-	"google.golang.org/grpc/internal"
-	"google.golang.org/grpc/metadata"
-	"google.golang.org/grpc/transport"
+	"github.com/VerveWireless/grpc-go/codes"
+	"github.com/VerveWireless/grpc-go/credentials"
+	"github.com/VerveWireless/grpc-go/grpclog"
+	"github.com/VerveWireless/grpc-go/internal"
+	"github.com/VerveWireless/grpc-go/metadata"
+	"github.com/VerveWireless/grpc-go/transport"
 )
 
 type methodHandler func(srv interface{}, ctx context.Context, dec func(interface{}) error) (interface{}, error)

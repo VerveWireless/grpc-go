@@ -49,10 +49,10 @@ import (
 
 	"golang.org/x/net/context"
 	"golang.org/x/net/http2"
-	"google.golang.org/grpc/codes"
-	"google.golang.org/grpc/credentials"
-	"google.golang.org/grpc/metadata"
-	"google.golang.org/grpc/peer"
+	"github.com/VerveWireless/grpc-go/codes"
+	"github.com/VerveWireless/grpc-go/credentials"
+	"github.com/VerveWireless/grpc-go/metadata"
+	"github.com/VerveWireless/grpc-go/peer"
 )
 
 // NewServerHandlerTransport returns a ServerTransport handling gRPC

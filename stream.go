@@ -42,9 +42,9 @@ import (
 
 	"golang.org/x/net/context"
 	"golang.org/x/net/trace"
-	"google.golang.org/grpc/codes"
-	"google.golang.org/grpc/metadata"
-	"google.golang.org/grpc/transport"
+	"github.com/VerveWireless/grpc-go/codes"
+	"github.com/VerveWireless/grpc-go/metadata"
+	"github.com/VerveWireless/grpc-go/transport"
 )
 
 type streamHandler func(srv interface{}, stream ServerStream) error

@@ -48,14 +48,14 @@ import (
 	"time"
 
 	"golang.org/x/net/context"
-	"google.golang.org/grpc"
+	"github.com/VerveWireless/grpc-go"
 
-	"google.golang.org/grpc/credentials"
-	"google.golang.org/grpc/grpclog"
+	"github.com/VerveWireless/grpc-go/credentials"
+	"github.com/VerveWireless/grpc-go/grpclog"
 
 	"github.com/golang/protobuf/proto"
 
-	pb "google.golang.org/grpc/examples/route_guide/routeguide"
+	pb "github.com/VerveWireless/grpc-go/examples/route_guide/routeguide"
 )
 
 var (

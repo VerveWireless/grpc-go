@@ -40,7 +40,7 @@ import (
 	"time"
 
 	"golang.org/x/net/context"
-	"google.golang.org/grpc/naming"
+	"github.com/VerveWireless/grpc-go/naming"
 )
 
 type testWatcher struct {
